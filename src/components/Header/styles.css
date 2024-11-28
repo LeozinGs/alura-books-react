@@ -2,5 +2,6 @@
     padding: 1em .5em;
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
