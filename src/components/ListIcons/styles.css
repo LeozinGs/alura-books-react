@@ -1,0 +1,12 @@
+.header-icons {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.icons-item {
+    cursor: pointer;
+    user-select: none;
+}
