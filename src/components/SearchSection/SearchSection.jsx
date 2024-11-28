@@ -7,8 +7,8 @@ import Card from '../Card/Card';
 const SearchContainer = styled.section`
     color: #FFF;
     text-align: center;
-    padding: 85px 0;
-    height: 270px;
+    padding: 4em 0 0 0;
+    height: fit-content;
     width: 100%;
 `;
 

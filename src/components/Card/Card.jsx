@@ -5,6 +5,7 @@ const CardContainer = styled.div`
     padding: 1em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     &:hover{
         border: 1px solid #fff;

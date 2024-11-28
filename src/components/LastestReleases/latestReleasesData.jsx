@@ -1,6 +1,6 @@
 import book from '../../assets/livro.png';
 
-export const books = [
+const latestBooks = [
     {
         name: 'Liderança em Design',
         id: 1,
@@ -22,25 +22,6 @@ export const books = [
         id: 4,
         src: book
     },
-    {
-        name: 'Python',
-        id: 5,
-        src: book
-    },
-    {
-        name: 'UX/UI Design para iniciantes',
-        id: 6,
-        src: book
-    },
-    {
-        name: 'Logos e Slogans',
-        id: 7,
-        src: book
-    },
-    {
-        name: 'Carreira em Java',
-        id: 8,
-        src: book
-    },
-
 ];
+
+export default latestBooks;
