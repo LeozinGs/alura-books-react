@@ -4,30 +4,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-.header-options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.header-icons {
-    display: flex;
-    gap: 2em;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1em;
-}
-
-.icons-item {
-    cursor: pointer;
-    user-select: none;
-}
-
-.options-item {
-    min-width: 120px;
-    font-size: 1em;
-    padding: 0 5px;
-    cursor: pointer;
-}
