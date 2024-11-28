@@ -22,7 +22,7 @@ const icons = [
 
 const ListIcons = () => {
     return (
-        <Icons className='header-icons'>
+        <Icons>
             {icons.map((item, index) => {
                 return <Icon key={index}><img src={item} /></Icon>
             })
