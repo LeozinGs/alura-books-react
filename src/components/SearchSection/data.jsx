@@ -23,7 +23,7 @@ export const books = [
         src: book
     },
     {
-        name: 'Python: Tudo o que você precisa saber',
+        name: 'Python: O que você precisa saber',
         id: 5,
         src: book
     },

@@ -15,6 +15,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+      height: 100vh;
+      background-image: linear-gradient(90deg, #002f52 35%, #326589 100%);
       font-family: var(--font-family);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Input from '../Input/Input';
 import { useState } from 'react';
 import { books } from './data';
+import Card from '../Card/Card';
 
 const SearchContainer = styled.section`
     color: #FFF;
@@ -24,6 +25,16 @@ const Subtitle = styled.h3`
     margin-bottom: 40px;
 `;
 
+const Results = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: .5em;
+    box-sizing: border-box;
+    margin-top: 2em;
+`;
+
 const SearchSection = () => {
     const [searchedBooks, setSearchedBooks] = useState([]);
 
@@ -39,9 +50,15 @@ const SearchSection = () => {
                     setSearchedBooks(searchResults);
                 }}
             />
-            {searchedBooks.map((book) => {
+            <Results>
+                {searchedBooks.map(book =>
 
-            })}
+                    <Card
+                        name={book.name}
+                        image={book.src}
+                    />
+                )}
+            </Results>
         </SearchContainer>
     );
 }
