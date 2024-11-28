@@ -1,4 +1,18 @@
-import './styles.css';
+import styled from 'styled-components';
+
+const Options = styled.ul`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`;
+
+const Option = styled.li`
+    min-width: 120px;
+    font-size: 1em;
+    padding: 0 5px;
+    cursor: pointer;
+`;
 
 const textOptions = [
     'CATEGORIAS',
@@ -9,14 +23,14 @@ const textOptions = [
 const ListOptions = () => {
 
     return (
-        <ul className='header-options'>
+        <Options>
             {textOptions.map((item, index) => {
-                return <li key={index} className='options-item'>
+                return <Option key={index}>
                     <p>{item}</p>
-                </li>
+                </Option>
             })
             }
-        </ul>
+        </Options>
     );
 }
 
